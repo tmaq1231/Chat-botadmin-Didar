@@ -16,7 +16,7 @@ module.exports = {
 		envConfig: {}
 	},
 	onStart: async function ({ message }) {
-		const authorName = " ⩸_ 𝙵𝙰𝙷𝙰𝙳 _⩸ ";
+		const authorName = " ⩸_ 𝙵𝙰 𝙷 𝙰𝙳 _⩸ ";
 		const ownAge = "『 ⩸_ 17 _⩸ 』";
 		const messenger = " //m.me/j/AbZAMeTomx5dm3W9/";
 		const authorFB = " //www.facebook.com/fahad.khan.87890";
@@ -26,7 +26,6 @@ module.exports = {
 "https://drive.google.com/uc?export=view&id=14M_Qx2OfCQhybST0tAzQ4QEqT7COD6Z1"
 "https://drive.google.com/uc?export=view&id=1wth7W_C2GroJWgcflWsG6C8W8pIGP-fH"
 "https://drive.google.com/uc?export=view&id=1LaA9AcTEbqf1BB_DG0jfOyHM8T8IQNNp"
-"https://drive.google.com/uc?export=view&id=122TpWiZkCcAkKkil7djsL60B75oqBur-"
 ];
 		const link = urls[Math.floor(Math.random() * urls.length)];
 		const now = moment().tz('Asia/Jakarta');
