@@ -45,7 +45,7 @@ module.exports = {
 			confirmThisThread: "Please react to this message to confirm change prefix in your box chat",
 			successGlobal: "Changed prefix of system bot to: %1",
 			successThisThread: "Changed prefix in your box chat to: %1",
-			myPrefix: "╭━━━━━━ [ 𝚈𝙾𝚄𝚁 𝙽𝙸𝚂𝙰𝙽 ] ━━━━━━╮\n┃🔰 𝚂𝚈𝚂𝚃𝙴𝙼 𝙿𝚁𝙴𝙵𝙸𝚇: [ %1 ]\n┃🔰 𝚈𝙾𝚄𝚁 𝙱𝙾𝚇 𝙲𝙷𝙰𝚃 𝙿𝚁𝙴𝙵𝙸𝚇: [ %2 ]\n╰━━━━━━━━━━━━━━━━━━━━━━╯"
+			myPrefix: "🌐 System prefix: %1\n🛸 Your box chat prefix: %2"
 		}
 	},
 
@@ -94,25 +94,10 @@ module.exports = {
 		}
 	},
 
-  onChat: async function ({ event, message, usersData, getLang }) {
-    const data = await usersData.get(event.senderID);
-    const name = data.name;
-    const now = new Date().toLocaleString("en-GB", {
-      timeZone: "Asia/Dhaka",
-      day: "2-digit",
-      month: "long",
-      year: "numeric",
-      hour: "2-digit",
-      minute: "2-digit",
-      hour12: true
-    });
-    const xyrene = {
-      body: getLang("myPrefix", global.GoatBot.config.prefix, utils.getPrefix(event.threadID)),
-      attachment: await global.utils.getStreamFromURL("https://drive.google.com/uc?export=view&id=1soGNQQul8_2j7XlzFeNEt7uH-DWfEr0J")
-        };
-    if (event.body && event.body.toLowerCase() === "prefix")
-      return () => {
-        return message.reply(xyrene);
-      };
-  }
-  };
+	onChat: async function ({ event, message, getLang }) {
+		if (event.body && event.body.toLowerCase() === "prefix")
+			return () => {
+				return message.reply(getLang("myPrefix", global.GoatBot.config.prefix, utils.getPrefix(event.threadID)));
+			};
+	}
+};
