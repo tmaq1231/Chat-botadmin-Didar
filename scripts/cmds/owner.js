@@ -23,12 +23,7 @@ module.exports = {
 		const authorNumber = "018******51";
 		const Status = "⩸____⩸";
 		const urls = [
-"https://drive.google.com/uc?export=view&id=1yQN8OiSOXguxKKbXivJrPOBp1HCklUKN",
-"https://drive.google.com/uc?export=view&id=1IeKC8SyZZoJGFiTettroDCKqzKmkz3Sc"
-"https://drive.google.com/uc?export=view&id=1mzJeualLnMS-wABThyCQFfJsX-2hMADG"
-"https://drive.google.com/uc?export=view&id=1l2vi5RCXTfl7LwDUx6DAkpNRhzNMSMu_"
 "https://drive.google.com/uc?export=view&id=14M_Qx2OfCQhybST0tAzQ4QEqT7COD6Z1"
-"https://drive.google.com/uc?export=view&id=1HWXPBajH5VyHk1VOOWFQMnwM2McA-rkG"
 "https://drive.google.com/uc?export=view&id=1wth7W_C2GroJWgcflWsG6C8W8pIGP-fH"
 "https://drive.google.com/uc?export=view&id=1LaA9AcTEbqf1BB_DG0jfOyHM8T8IQNNp"
 "https://drive.google.com/uc?export=view&id=122TpWiZkCcAkKkil7djsL60B75oqBur-"
