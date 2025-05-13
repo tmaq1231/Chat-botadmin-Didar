@@ -16,16 +16,14 @@ module.exports = {
 		envConfig: {}
 	},
 	onStart: async function ({ message }) {
-		const authorName = " ⩸_ DIDAR _⩸ ";
+		const authorName = " ⩸_ Didar _⩸ ";
 		const ownAge = "『 ⩸_ 19 _⩸ 』";
-		const messenger = " //;
-		const authorFB = " //www.facebook.com/didar.xx2";
-		const authorNumber = "013******94";
+		const messenger = " //https://m.me/100000934675181";
+		const authorFB = " //https://www.facebook.com/didar.xx2?mibextid=wwXIfr&mibextid=wwXIfr";
+		const authorNumber = "013********94";
 		const Status = "⩸____⩸";
 		const urls = [
-"https://drive.google.com/uc?export=view&id=14M_Qx2OfCQhybST0tAzQ4QEqT7COD6Z1"
-"https://drive.google.com/uc?export=view&id=1wth7W_C2GroJWgcflWsG6C8W8pIGP-fH"
-"https://drive.google.com/uc?export=view&id=1LaA9AcTEbqf1BB_DG0jfOyHM8T8IQNNp"
+"https://drive.google.com/uc?export=view&id=1P-J1ti7FAdCAwqLSF_2SVOpAgkytgpkZ"
 ];
 		const link = urls[Math.floor(Math.random() * urls.length)];
 		const now = moment().tz('Asia/Jakarta');
@@ -51,7 +49,7 @@ module.exports = {
 \⏰彡𝑁𝑜𝑤 𝑇𝑖𝑚𝑒 : ${time}
 \🔰彡𝐴𝑛𝑦 𝐻𝑒𝑙𝑝 𝐶𝑜𝑛𝑡𝑎𝑐𝑡 : ${messenger}__⩸
 \📛彡𝐵𝑜𝑡 𝐼𝑠 𝑅𝑢𝑛𝑛𝑖𝑛𝑔 𝐹𝑜𝑟 : ${uptimeString}
-    𝑰𝒏𝒔𝒕𝒂:  //www.instagram.com/fahad.islam.2112112
+    𝑰𝒏𝒔𝒕𝒂:  //https://www.instagram.com/alvee.didar.12?igsh=anZjZDV0aDMzZmM3&utm_source=qr
 \===============`,
 			attachment: await global.utils.getStreamFromURL(link)
 		});
