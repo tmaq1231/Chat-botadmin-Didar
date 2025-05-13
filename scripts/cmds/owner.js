@@ -16,11 +16,11 @@ module.exports = {
 		envConfig: {}
 	},
 	onStart: async function ({ message }) {
-		const authorName = " ⩸_ 𝙵𝙰 𝙷 𝙰𝙳 _⩸ ";
-		const ownAge = "『 ⩸_ 17 _⩸ 』";
-		const messenger = " //m.me/j/AbZAMeTomx5dm3W9/";
-		const authorFB = " //www.facebook.com/fahad.khan.87890";
-		const authorNumber = "018******51";
+		const authorName = " ⩸_ DIDAR _⩸ ";
+		const ownAge = "『 ⩸_ 19 _⩸ 』";
+		const messenger = " //;
+		const authorFB = " //www.facebook.com/didar.xx2";
+		const authorNumber = "013******94";
 		const Status = "⩸____⩸";
 		const urls = [
 "https://drive.google.com/uc?export=view&id=14M_Qx2OfCQhybST0tAzQ4QEqT7COD6Z1"
