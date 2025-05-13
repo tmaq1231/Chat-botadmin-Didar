@@ -69,7 +69,7 @@ module.exports = {
     const botStats = box("𝗕𝗼𝘁 𝗦𝘁𝗮𝘁𝘂𝘀", [
       `👥 𝗨𝘀𝗲𝗿𝘀: ${allUsers.length}`,
       `🗣️ 𝗧𝗵𝗿𝗲𝗮𝗱𝘀: ${allThreads.length}`,
-      `👑 𝗔𝗱𝗺𝗶𝗻: [FAHAD](https://facebook.com/fahad.khan.87890)`
+      `👑 𝗔𝗱𝗺𝗶𝗻: [Didar](https://www.facebook.com/didar.xx2)`
     ].join("\n"));
  
     // Final Output
